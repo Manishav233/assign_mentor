@@ -52,7 +52,7 @@ app.get("/", (request, response) => {
     response.send(students);
     })
     
-    //display all mentors
+    //display all students
     
     app.get('/students',async(request,response)=>{
         const client=await createConnection();
