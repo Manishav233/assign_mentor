@@ -24,7 +24,7 @@ async function createConnection() {
   
   //Get Home page
 app.get("/", (request, response) => {
-    response.send("Assign Mentor to Students API");
+    response.send("Assign Mentor to Students API Task");
     console.log('Home Page')
   });
   
