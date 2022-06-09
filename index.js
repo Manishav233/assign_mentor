@@ -8,7 +8,7 @@ import { MongoClient } from "mongodb";
 
 const app=express();
 dotenv.config();  //dotenv is a module that loads environment variables from a .env file into process.env
-// const PORT = process.env.PORT;
+const PORT = process.env.PORT ||9000;
 app.use(express.json());  //parses incoming JSON requests and puts the parsed data in req.body
 app.use(cors()); 
 
